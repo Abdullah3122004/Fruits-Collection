@@ -1,0 +1,30 @@
+button{
+    color: black;
+    width: 150px;
+    margin-top: 20px;
+    
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h1,h2,p{
+    text-align: center;
+}
+body{
+    background-color: darkcyan;
+}
+ .fruits {
+    font-size: 50px;
+    margin-top: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  p{
+    color: black;
+    margin-bottom: 20px;
+  }
+
