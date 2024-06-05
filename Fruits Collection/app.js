@@ -125,7 +125,7 @@ var list = document.getElementById("list");
   }
   function Delete(ele) {
         var index = ele.parentElement.parentElement.id;
-        fruits.splice(location,1,)
+        fruits.splice(index,1,)
         list.innerHTML = "";
         fruits.forEach(function (data, ind) {
             var ele = `<div class="lg:w-1/3  sm:w-1/2 p-4">
